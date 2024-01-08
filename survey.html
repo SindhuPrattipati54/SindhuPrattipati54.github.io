@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalized Recommendations survey</title>
+</head>
+<body>
+    <h1>Personalized Recommendations survey</h1>
+
+    <form method="post">
+        <label>1. How would you describe your mood today?</label><br>
+        <input type="radio" name="mood" value="Happy"> Happy
+        <input type="radio" name="mood" value="Lazy"> Lazy
+        <input type="radio" name="mood" value="Bored"> Bored
+        <input type="radio" name="mood" value="Stressed"> Stressed
+        <input type="radio" name="mood" value="Depressed"> Depressed
+        <input type="radio" name="mood" value="Hungry"> Hungry
+        <input type="radio" name="mood" value="None"> None<br><br>
+        
+        <label>2. Which cuisines do you want to try today?</label><br>
+        <input type="radio" name="cuisine" value="italian"> Italian
+        <input type="radio" name="cuisine" value="mexican"> Mexican
+        <input type="radio" name="cuisine" value="Indian"> Indian
+        <input type="radio" name="cuisine" value="Chinese"> Chinese
+        <input type="radio" name="cuisine" value="Thai"> Thai
+        <input type="radio" name="cuisine" value="Mongolian"> Mongolian
+        <input type="radio" name="cuisine" value="American"> American<br><br>
+
+        <label>3. Do you have any dietary restrictions or preferences?</label><br>
+        <input type="checkbox" name="dietary_preferences" value="vegetarian"> Vegetarian
+        <input type="checkbox" name="dietary_preferences" value="vegan"> Vegan
+        <input type="checkbox" name="dietary_preferences" value="gluten_free"> Gluten-Free<br><br>
+        
+        <label>4. Are there specific beverages you enjoy? (e.g., coffee, tea, smoothies, cocktails)</label><br>
+        <input type="checkbox" name="beverage_preferences" value="coffee"> coffee
+        <input type="checkbox" name="beverage_preferences" value="tea"> tea
+        <input type="checkbox" name="beverage_preferences" value="smoothies"> smoothies
+        <input type="checkbox" name="beverage_preferences" value="cocktails"> cocktails<br><br>
+
+        <label>5. How do you feel about spice levels in your food?</label><br>
+        <input type="radio" name="spice_level" value="mild"> Mild
+        <input type="radio" name="spice_level" value="medium"> Medium
+        <input type="radio" name="spice_level" value="spicy"> Spicy<br><br>
+        
+        <label>6. How would you describe your current craving? (e.g., comfort food, light and refreshing, indulgent)</label><br>
+        <input type="radio" name="craving" value="comfort food"> comfort food
+        <input type="radio" name="craving" value="light and refreshing"> light and refreshing
+        <input type="radio" name="craving" value="indulgent"> indulgent<br><br>
+
+        <label>7. Do you have any food allergies we should be aware of?</label><br>
+        <textarea name="allergy_information" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
